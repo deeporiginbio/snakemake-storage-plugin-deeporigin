@@ -15,7 +15,7 @@ jobs:
         id: release
         with:
           release-type: python
-          package-name: snakemake-storage-plugin-s3
+          package-name: snakemake-storage-plugin-deeporigin
 
   publish:
     runs-on: ubuntu-latest
