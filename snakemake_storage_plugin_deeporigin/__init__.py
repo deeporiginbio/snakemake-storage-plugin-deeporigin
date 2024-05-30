@@ -353,7 +353,7 @@ class StorageObject(StorageObjectRead, StorageObjectWrite, StorageObjectGlob):
         # The method has to return concretized queries without any remaining wildcards.
         prefix = get_constant_prefix(self.query)
         if prefix.startswith(self.bucket):
-            prefix = prefix[len(self.bucket):]
+            prefix = prefix[len(self.bucket) :]
             return (item.key for item in self.s3bucket().objects.filter(Prefix=prefix))
         else:
             raise WorkflowError(
