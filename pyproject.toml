@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "snakemake-storage-plugin-deeporigin"
-version = "0.2.11"
+version = "0.0.2"
 description = "A Snakemake storage plugin for S3 API storage (AWS S3, MinIO, etc.)"
 authors = ["Bilal Shaikh <bilalshaikh42@gmail.com>"]
 readme = "README.md"

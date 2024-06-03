@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.2](https://github.com/formiclabs/snakemake-storage-plugin-deeporigin/compare/v0.0.1...v0.0.2) (2024-06-03)
+
+
+### Bug Fixes
+
+* credentials override ([c112bdf](https://github.com/formiclabs/snakemake-storage-plugin-deeporigin/commit/c112bdfd933a5b0644c7b1ea884c8e2218dc0020))
+* dependencies ([24b0225](https://github.com/formiclabs/snakemake-storage-plugin-deeporigin/commit/24b0225a61e379d2d8cb808a9e0188188b23d9a1))
+* tests fix ([0999182](https://github.com/formiclabs/snakemake-storage-plugin-deeporigin/commit/09991824b70837fc2d7ee586be667bfdaf36d5dc))
+
 ## [0.2.11](https://github.com/snakemake/snakemake-storage-plugin-s3/compare/v0.2.10...v0.2.11) (2024-04-17)
 
 
