@@ -104,7 +104,8 @@ class StorageProviderSettings(StorageProviderSettingsBase):
         session = boto3.Session()
         credentials = session.get_credentials()
 
-        if credentials:
+        # dont overwrite the token if we have an access key and secret key
+        if credentials and self.access_key is None and self.secret_key is None:
             if self.access_key is None:
                 self.access_key = credentials.access_key
             if self.secret_key is None:
