@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "snakemake-storage-plugin-deeporigin"
 version = "0.0.2"
-description = "A Snakemake storage plugin for S3 API storage (AWS S3, MinIO, etc.)"
-authors = ["Bilal Shaikh <bilalshaikh42@gmail.com>"]
+description = "A Snakemake storage plugin for Deeporigin data storage"
+authors = ["Bilal Shaikh <bilalshaikh42@gmail.com>", "Johannes Koester <johannes.koester@uni-due.de>"]
 readme = "README.md"
-repository = "https://github.com/formiclabs/snakemake-storage-plugin-deeporigin"
-documentation = "https://snakemake.github.io/snakemake-plugin-catalog/plugins/storage/s3.html"
+repository = "https://github.com/deeporiginbio/snakemake-storage-plugin-deeporigin"
+documentation = "https://snakemake.github.io/snakemake-plugin-catalog/plugins/storage/deeporigin.html"
 license = "MIT"
 keywords = ["snakemake", "plugin", "storage", "s3"]
 
