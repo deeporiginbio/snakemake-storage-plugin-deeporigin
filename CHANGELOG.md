@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.3](https://github.com/deeporiginbio/snakemake-storage-plugin-deeporigin/compare/v0.0.2...v0.0.3) (2024-06-14)
+
+
+### Bug Fixes
+
+* metadata update ([327c5b4](https://github.com/deeporiginbio/snakemake-storage-plugin-deeporigin/commit/327c5b49c7bcaa14274612005938cf1290585a12))
+* use https verify ([5269d0f](https://github.com/deeporiginbio/snakemake-storage-plugin-deeporigin/commit/5269d0fd62da3aac93002da01fd83c8018e99eef))
+
 ## [0.0.2](https://github.com/formiclabs/snakemake-storage-plugin-deeporigin/compare/v0.0.1...v0.0.2) (2024-06-03)
 
 
